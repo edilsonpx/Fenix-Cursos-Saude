@@ -340,7 +340,7 @@ body{
     .logo a{
   
     text-decoration: none; /* tira o anderline  barra*/ 
-    color:white;
+    color:red;
     font-weight: 700;  /* tamanho negrito */
     text-transform: uppercase;
     font-size: 10px;
@@ -512,8 +512,8 @@ margin: 0px;
 
 .card{
     border-radius: 10px;
-width: 200px;
-height: 200px;
+width: 180px;
+height:150px;
 background-color: #F8F8FF;
  box-shadow: 25px 10px 8px #000000;
 
@@ -526,8 +526,8 @@ background-color: #F8F8FF;
     #foto{
 
 max-width: 300%;
-width:  200px; 
-height: 193px; 
+width:  180px; 
+height: 150px; 
 
 }
 
