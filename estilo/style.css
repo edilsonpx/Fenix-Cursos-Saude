@@ -101,7 +101,7 @@ border-bottom: 5px solid #778899; /* deixa botão em 3D  e com borda*/
   
     text-decoration: none; /* tira o anderline  barra*/ 
     color:white;
-    font-weight: 700;  /* tamanho negrito */
+    font-weight: 700px;  /* tamanho negrito */
     text-transform: uppercase;
     font-size: 17px;
     position: relative;
@@ -282,6 +282,7 @@ footer{
     border-bottom: 15px solid #F8F8FF; /* deixa botão em 3D  e com borda*/
     background: #778899;
     padding: 0px 0;
+    margin-top: 25px;
 }
 
 footer.fixed{
@@ -499,7 +500,7 @@ margin: 0px;
 /***********************************************************************/
 
  #container-pedidos-ID{  /* <section class="especialidades"> */
-    padding: 30px 0px;
+    padding: 10px 0px;
     display: inline-block;
 }
 
@@ -513,7 +514,7 @@ margin: 0px;
 .card{
     border-radius: 10px;
 width: 500px;
-height:260px;
+height:290px;
 background-color: #F8F8FF;
  box-shadow: 25px 10px 8px #000000;
 
@@ -527,7 +528,7 @@ background-color: #F8F8FF;
 
 max-width: 600%;
 width:  490px; 
-height: 250px; 
+height: 280px; 
 
 }
 
