@@ -1,0 +1,175 @@
+<html>
+<head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <title>Cadastrar Variedades</title>
+        <link rel="stylesheet" href="estilo/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <link href="estilo/style.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="keywordes" content="palavras-chaves,do,meu,site">
+     <meta name="description" content="Diversos produtos para você!."> 
+         <meta charset="utf-8"/>
+  
+</head>
+
+
+
+<body>
+    <div style="display: none" class="cliente">
+
+        
+
+
+         <h2>Cadastrar baner1</h2>
+
+        <form id="form-cliente0">
+           
+            <input type="file" name="arquivo0" /><br>
+            <input type="submit" name="acao0" value="Enviar" />
+            
+        </form>
+    <br>
+
+
+                <h2>Cadastrar baner2</h2>
+
+        <form id="form-cliente1">
+           
+            <input type="file" name="arquivo1" /><br>
+            <input type="submit" name="acao1" value="Enviar" />
+            
+        </form>
+    <br>
+
+
+    
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js"></script>
+
+    <script>
+        var  firebaseConfig = {
+        apiKey: "AIzaSyAlyKAt0Eg57cb8GZDalCaEwIALPWPAEds",
+        authDomain: "painel-loguin.firebaseapp.com",
+        projectId: "painel-loguin",
+        storageBucket: "painel-loguin.appspot.com",
+        messagingSenderId: "24549930727",
+        appId: "1:24549930727:web:98a17c160e55172c4bd442"
+      };
+        firebase.initializeApp(firebaseConfig);
+
+        const storage = firebase.storage();
+        const db = firebase.firestore();
+        const auth = firebase.auth();
+
+        const provider = new firebase.auth.GoogleAuthProvider();
+
+
+        /***********************************************************************************/
+
+
+
+
+        const formCliente0 = document.querySelector('#form-cliente0');
+        formCliente0.addEventListener('submit', (e) => {
+            e.preventDefault();
+         
+            let arquivo = document.querySelector('[name=arquivo0]').files[0];
+
+            const uploadTask0 = storage.ref('baner1/' + arquivo).put(arquivo);
+
+            uploadTask0.on('state_changed', (snapshot) => {
+                const progress0 = (snapshot.bytesTransferred / snapshot.totalBytes) * 1;
+                console.log(progress0);
+            },
+                function (error) {
+
+                },
+                function () {
+                    storage.ref('baner1/' + arquivo).getDownloadURL().then((url) => {
+                        db.collection('baner1').add({
+                            
+                            arquivoURL: url
+                        })
+                        alert("Cadastro Enviado com sucesso!");
+                    })
+                }
+            )
+        })
+
+
+ /********************************************************************************************/
+
+
+        const formCliente1 = document.querySelector('#form-cliente1');
+        formCliente1.addEventListener('submit', (e) => {
+            e.preventDefault();
+         
+            let arquivo = document.querySelector('[name=arquivo1]').files[0];
+
+            const uploadTask1 = storage.ref('baner/' + arquivo).put(arquivo);
+
+            uploadTask1.on('state_changed', (snapshot) => {
+                const progress1 = (snapshot.bytesTransferred / snapshot.totalBytes) * 1;
+                console.log(progress1);
+            },
+                function (error) {
+
+                },
+                function () {
+                    storage.ref('baner/' + arquivo).getDownloadURL().then((url) => {
+                        db.collection('baner').add({
+                            
+                            arquivoURL: url
+                        })
+                        alert("Cadastro Enviado com sucesso!");
+                    })
+                }
+            )
+        })
+
+
+
+
+
+
+
+/***************************************************************************************************/
+
+    </script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const myParam = urlParams.get('admin');
+
+        if (myParam != null) {
+            //Eu quero entrar na parte administrativa.
+            const adminArea = document.querySelector('.admin');
+            adminArea.style.display = "block";
+            console.log("Área do administrador");
+
+            auth.onAuthStateChanged((val) => {
+                if (val.email == "edilson.aria@gmail.com") {
+                    loginBtn.style.display = "none";
+                    document.querySelector('.listar-formularios').style.display = "block";
+                    alert('Você está logado, admin!');
+                    console.log("Logado como admin.");
+                } else {
+                    alert('Este email não é autorizado!');
+                    console.log("Usuário não logado como admin.");
+                }
+            })
+
+        } else {
+            //Eu sou usuário.
+            const clientArea = document.querySelector('.cliente');
+            clientArea.style.display = "block";
+            console.log("Área do usuário");
+        }
+    </script>
+</body>
+
+</html>

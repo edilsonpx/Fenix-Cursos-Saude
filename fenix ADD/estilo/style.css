@@ -1,0 +1,128 @@
+  * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+body {
+
+     margin: 0;
+    background: #fff;
+    min-height: 100vh;
+    background:red;
+    background-repeat: no-repeat;
+    
+}
+
+input{
+    border: 2;
+}
+
+
+img{
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.center{
+    max-width: 1280px;
+    padding:0 2%;
+    margin:0 auto;
+}
+
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.w50{
+    padding:0 10px;
+    width: 50%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+  .cliente {
+            text-align: center;
+        }
+
+        .cliente img {
+            max-width: 500px;
+            width: 30%;
+        }
+
+        .cliente h2 {
+            color: black;
+            padding: 10px;
+        }
+
+        .cliente textarea {
+
+            width: 30%;
+            height: 40px;
+            padding: 10px;
+        }
+
+        .cliente input {
+            padding: 10px;
+            width: 30%;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        .admin {
+            text-align: center;
+        }
+
+        .admin h2 {
+            color: black;
+            padding: 10px;
+        }
+
+
+        @media screen and (max-width: 700px){
+
+
+
+            #form-cliente2{
+
+                text-align: center;
+                padding: 20px;
+            }
+
+            .cliente input {
+            padding: 10px;
+            width: 30%;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        .cliente textarea {
+
+width: 55%;
+height: 40px;
+padding: 10px;
+}
+
+.cliente h2 {
+            color: black;
+            padding: 10px;
+        }
+
+
+}
