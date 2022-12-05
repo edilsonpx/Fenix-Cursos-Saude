@@ -500,7 +500,7 @@ margin: 0px;
 /***********************************************************************/
 
  #container-pedidos-ID{  /* <section class="especialidades"> */
-    padding: 10px 0px;
+    padding: 30px 0px;
     display: inline-block;
 }
 
@@ -544,7 +544,7 @@ footer{
     border-bottom: 15px solid #F8F8FF; /* deixa botão em 3D  e com borda*/
     background: #778899;
     padding:  0px;
-    margin-top: 25px;
+    margin-top: 100px;
 
 }
 
