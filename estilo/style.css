@@ -527,8 +527,8 @@ background-color: #F8F8FF;
     #foto{
 
 max-width: 500%;
-width:  370px; 
-height: 280px; 
+width:  100vw; 
+height: 280vh; 
 
 }
 
