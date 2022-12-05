@@ -514,7 +514,7 @@ margin: 0px;
 .card{
     border-radius: 10px;
 width: 370px;
-height:310px;
+height:300px;
 background-color: #F8F8FF;
  box-shadow: 25px 10px 8px #000000;
 
@@ -528,7 +528,7 @@ background-color: #F8F8FF;
 
 max-width: 500%;
 width:  98vw; 
-height: 50vh; 
+height: 20vh; 
 
 }
 
