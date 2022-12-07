@@ -12,7 +12,8 @@ body {
     background: #DCDCDC;
     min-height: 100vh;
     background-repeat: no-repeat;
-    font-family: cambria;
+    font-family: cambria
+     Padding: 0;
     
 
           
@@ -519,9 +520,9 @@ background-color: #F8F8FF;
   
     #foto{
 
-max-width: 300%;
-width:  100%; 
+width:  100vw; 
 height: 250px; 
+
 
 }
 
