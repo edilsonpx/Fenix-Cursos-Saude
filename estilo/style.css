@@ -506,7 +506,7 @@ margin: 0px;
 
 .card{
     border-radius: 10px;
-width: 220px;
+width: 370px;
 height: 200px;
 background-color: #F8F8FF;
 /* box-shadow: 25px 10px 8px #000000; */
@@ -520,7 +520,7 @@ background-color: #F8F8FF;
     #foto{
 
 max-width: 300%;
-width:  310px; 
+width:  370px; 
 height: 200px; 
 
 }
