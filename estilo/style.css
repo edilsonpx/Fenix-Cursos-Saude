@@ -546,8 +546,8 @@ margin: 0px;
 
 .card{
     border-radius: 10px;
-width: 200px;
-height: 200px;
+width: 176px;
+height: 270px;
 background-color: #F8F8FF;
 /* box-shadow: 25px 10px 8px #000000; */
 
@@ -559,7 +559,7 @@ background-color: #F8F8FF;
   
     #foto{
 
-max-width: 300%;
+max-width: 100%;
 width:  200px; 
 height: 193px; 
 
