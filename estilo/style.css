@@ -686,7 +686,7 @@ nav.mobile  ul{
 }
 
     #central-ID2{
-     margin: -3px; /* espaçamentos do cardes*/
+     margin: -2px; /* espaçamentos do cardes*/
     padding: 0px 0px;  /* espaçamendo dos itens pros lados dos cardes*/
     display: inline-block;
 }
@@ -694,8 +694,8 @@ nav.mobile  ul{
 
  #card-ID2{
    border-radius: 10px;
-width:  48.5vw; 
-height: 45vh; 
+width:  51vw; 
+height: 40vh; 
 background-color: #F8F8FF;
 /* box-shadow: 25px 10px 8px #000000;*/
 
