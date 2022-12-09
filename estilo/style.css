@@ -741,7 +741,7 @@ img:hover{
 
     #central-ID{
      margin: -2px; /* espaçamentos do cardes*/
-    padding: 0px 0px;  /* espaçamendo dos itens pros lados dos cardes*/
+    padding: 0px 20px;  /* espaçamendo dos itens pros lados dos cardes*/
     display: inline-block;
 }
 
