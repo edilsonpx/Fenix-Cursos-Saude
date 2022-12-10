@@ -1,1 +1,0 @@
-# Compara-ao-teste
