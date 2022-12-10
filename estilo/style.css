@@ -603,7 +603,7 @@ img:hover{
 
 
 section.Titulo{  /* <section class="especialidades"> */
-    padding: 5px 0;
+    padding: 0px 0;
     /*display: inline-block; */
     text-align: center;
 }
@@ -651,7 +651,7 @@ section.Titulo{  /* <section class="especialidades"> */
 
 
  section.container{  /* <section class="especialidades"> */
-    padding: 0px 3px;  /* alturas das bolsas e afastar pro lado*/  
+    padding: 0px 10px;  /* alturas das bolsas e afastar pro lado*/  
     
 }
 
