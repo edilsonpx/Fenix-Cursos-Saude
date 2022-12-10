@@ -651,7 +651,7 @@ section.Titulo{  /* <section class="especialidades"> */
 
 
  section.container{  /* <section class="especialidades"> */
-    padding: 0px 2px;  /* alturas das bolsas e afastar pro lado*/  
+    padding: 0px 3px;  /* alturas das bolsas e afastar pro lado*/  
     
 }
 
@@ -746,7 +746,7 @@ background-color: #F8F8FF;
 
 footer{
     border-bottom: 15px solid #F8F8FF; /* deixa botão em 3D  e com borda*/
-    background: #000000;
+    background:#778899 ;
     padding: 10px 0;
     margin-top: 25px;
 
