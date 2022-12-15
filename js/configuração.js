@@ -17,7 +17,7 @@ var  firebaseConfig = {
 
 
           //PUXAR PEDIDOS DO FIRESTORE
-                db.collection('baner1').onSnapshot((data) => {
+                db.collection('logo').onSnapshot((data) => {
             let list = document.querySelector('.container-logo');
             list.innerHTML = "";
             data.docs.map((val) => {
