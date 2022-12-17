@@ -495,7 +495,7 @@ nav.mobile{
 
 nav.mobile  ul{
 
-        top: 75px;
+        top: 70px;
         z-index: 2;
         position: absolute;
         left: 0;
@@ -511,7 +511,7 @@ nav.mobile  ul{
         font-weight: 700; /* fonte */ 
         width: 100%;
         display: block;
-        background: black;
+        background: #778899;
         border-bottom: 10px solid #F8F8FF; /* deixa botão em 3D  e com borda*/ 
         font-size: 17px;
         padding:8px 0;  /* tamanho das bolas*/
