@@ -718,7 +718,7 @@ background-color: #F8F8FF;
 
 .card-curso4{
 border-radius: 10px;
-width: 382px;
+width: 360px;
 height: 310px;
 background-color: #F8F8FF;
 /* box-shadow: 25px 10px 8px #000000;*/
@@ -727,7 +727,7 @@ background-color: #F8F8FF;
 
 .card-curso5{
 border-radius: 10px;
-width: 382px;
+width: 360px;
 height: 330px;
 background-color: #F8F8FF;
 /* box-shadow: 25px 10px 8px #000000;*/
@@ -737,7 +737,7 @@ background-color: #F8F8FF;
   
     .foto{
  max-width: 400%;
-  width:  380px;  /* largura*/
+  width:  360px;  /* largura*/
     height: 250px;
      padding: 0px;
   /*   border: 3px solid #F8F8FF;  /* cor da borta das fotos*/
