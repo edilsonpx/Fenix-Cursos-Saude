@@ -677,7 +677,7 @@ section.Titulo{  /* <section class="especialidades"> */
 
 
  section.container1{  /* <section class="especialidades"> */
-    padding: 0px 0px;  /* alturas das bolsas e afastar pro lado*/  
+    padding: 0px 20px;  /* alturas das bolsas e afastar pro lado*/  
      margin-left: 0;
     
 }
@@ -718,7 +718,7 @@ background-color: #F8F8FF;
 
 .card-curso4{
 border-radius: 10px;
-width: 360px;
+width: 365px;
 height: 310px;
 background-color: #F8F8FF;
 /* box-shadow: 25px 10px 8px #000000;*/
@@ -727,7 +727,7 @@ background-color: #F8F8FF;
 
 .card-curso5{
 border-radius: 10px;
-width: 360px;
+width: 365px;
 height: 330px;
 background-color: #F8F8FF;
 /* box-shadow: 25px 10px 8px #000000;*/
