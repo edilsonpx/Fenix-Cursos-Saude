@@ -818,7 +818,7 @@ section.container8{  /* <section class="especialidades"> */
 border-radius: 10px;
 width: 365px;
 height: 310px;
-background-color: #0938F8;
+background-color: #0938F8;  /* Azul forte */
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 }
@@ -827,7 +827,7 @@ box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 border-radius: 10px;
 width: 365px;
 height: 310px;
-background-color: #1428DB;
+background-color: #E80707;  /* vermelho  */
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 
@@ -836,7 +836,7 @@ box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 border-radius: 10px;
 width: 365px;
 height: 310px;
-background-color: #E80707;
+background-color: #6AC1DF; /* verde fraco*/
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 
@@ -846,7 +846,7 @@ box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 border-radius: 10px;
 width: 365px;
 height: 310px;
-background-color: #09F7F1;
+background-color: #09F7F1; /* Azul claro*/
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 
@@ -870,7 +870,7 @@ border-radius: 10px;
 width: 365px;
 height: 330px;
 overflow: hidden;
-background-color: #FFEF09; /* */
+background-color: #FFEF09; /* amarelo */
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 }
@@ -880,7 +880,7 @@ border-radius: 10px;
 width: 365px;
 height: 330px;
 overflow: hidden;
-background-color: #0CF527; /* */
+background-color: #FB1121; /* vermelho*/
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 }
