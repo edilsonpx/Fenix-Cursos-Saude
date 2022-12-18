@@ -785,23 +785,13 @@ box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
   
     .foto{
 max-width: 400%;
-width:  365px; .card-curso6{
-border-radius: 10px;
-width: 365px;
-height: 330px;
-overflow: hidden;
-background-color: #0938F8 ; /* Laranjado*/
-box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
-
-} /* largura*/
+width:  365px; 
 height: 250px;
 padding: 0px;
 /*  border: 3px solid #F8F8FF;  /* cor da borta das fotos*/
 cursor: pointer;  /*cursor pra foto*/
 text-align: center;
  
-
-
 }
 
 
