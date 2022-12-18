@@ -73,7 +73,7 @@ var  firebaseConfig = {
 
                 <section class="container1">
                 <div class=" w50 left box-central">
-                        <div class="card-curso4">
+                        <div class="card-curso1">
                           <img  class="foto" src ="${val.data().arquivoURL}"</div>
                            <p class="descriçao">${val.data().descricao}</p>
                             
@@ -98,7 +98,7 @@ var  firebaseConfig = {
 
                 <section class="container2">
                 <div class=" w50 left box-central">
-                        <div class="card-curso4">
+                        <div class="card-curso2">
                           <img  class="foto" src ="${val.data().arquivoURL}"</div>
                            <p class="descriçao">${val.data().descricao}</p>
                             
@@ -126,7 +126,7 @@ var  firebaseConfig = {
 
                 <section class="container3">
                 <div class=" w50 left box-central">
-                        <div class="card-curso4">
+                        <div class="card-curso3">
                           <img  class="foto" src ="${val.data().arquivoURL}"</div>
                            <p class="descriçao">${val.data().descricao}</p>
                             
@@ -154,7 +154,7 @@ var  firebaseConfig = {
 
                 <section class="container4">
                 <div class=" w50 left box-central">
-                        <div class="card-curso5">
+                        <div class="card-curso4">
                           <img  class="foto" src ="${val.data().arquivoURL}"</div>
                            <p class="descriçao">${val.data().descricao}</p>
                             </div>
@@ -182,7 +182,7 @@ var  firebaseConfig = {
 
                 <section class="container5">
                 <div class=" w50 left box-central">
-                        <div class="card-curso4">
+                        <div class="card-curso5">
                           <img  class="foto" src ="${val.data().arquivoURL}"</div>
                            <p class="descriçao">${val.data().descricao}</p>
                             
@@ -209,7 +209,7 @@ var  firebaseConfig = {
 
                 <section class="container6">
                 <div class=" w50 left box-central">
-                        <div class="card-curso4">
+                        <div class="card-curso6">
                           <img  class="foto" src ="${val.data().arquivoURL}"</div>
                            <p class="descriçao">${val.data().descricao}</p>
                             
@@ -236,7 +236,7 @@ var  firebaseConfig = {
 
                 <section class="container7">
                 <div class=" w50 left box-central">
-                        <div class="card-curso4">
+                        <div class="card-curso7">
                           <img  class="foto" src ="${val.data().arquivoURL}"</div>
                            <p class="descriçao">${val.data().descricao}</p>
                             
@@ -264,7 +264,7 @@ var  firebaseConfig = {
 
                 <section class="container8">
                 <div class=" w50 left box-central">
-                        <div class="card-curso4">
+                        <div class="card-curso8">
                           <img  class="foto" src ="${val.data().arquivoURL}"</div>
                            <p class="descriçao">${val.data().descricao}</p>
                             
