@@ -671,16 +671,45 @@ section.Titulo{  /* <section class="especialidades"> */
 
 
  section.container2{  /* <section class="especialidades"> */
-    padding: 0px 0px;  /* alturas das bolsas e afastar pro lado*/  
+    padding: 0px 3.2px;  /* alturas das bolsas e afastar pro lado*/  
     
 }
 
 
  section.container1{  /* <section class="especialidades"> */
-    padding: 0px 0px;  /* alturas das bolsas e afastar pro lado*/  
-     margin-left: 0;
+    padding: 0px 3.2px;  /* alturas das bolsas e afastar pro lado*/  
+   
     
 }
+
+section.container4{  /* <section class="especialidades"> */
+    padding: 0px 3.2px;  /* alturas das bolsas e afastar pro lado*/  
+   
+    
+}
+section.container5{  /* <section class="especialidades"> */
+    padding: 0px 3.2px;  /* alturas das bolsas e afastar pro lado*/  
+   
+    
+}
+section.container6{  /* <section class="especialidades"> */
+    padding: 0px 3.2px;  /* alturas das bolsas e afastar pro lado*/  
+   
+    
+}
+
+section.container7{  /* <section class="especialidades"> */
+    padding: 0px 3.2px;  /* alturas das bolsas e afastar pro lado*/  
+   
+    
+}
+
+section.container8{  /* <section class="especialidades"> */
+    padding: 0px 3.2px;  /* alturas das bolsas e afastar pro lado*/  
+   
+    
+}
+
 
 
 .box-central{
