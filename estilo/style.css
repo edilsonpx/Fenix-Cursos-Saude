@@ -721,6 +721,7 @@ border-radius: 10px;
 width: 365px;
 height: 310px;
 background-color: #F8F8FF;
+overflow: hidden;
 /* box-shadow: 25px 10px 8px #000000;*/
 
 }
