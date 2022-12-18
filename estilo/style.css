@@ -712,7 +712,8 @@ border-radius: 10px;
 width: 382px;
 height: 270px;
 background-color: #F8F8FF;
-/* box-shadow: 25px 10px 8px #000000;*/
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
 
 }
 
@@ -722,7 +723,8 @@ width: 365px;
 height: 310px;
 background-color: #F8F8FF;
 overflow: hidden;
-/* box-shadow: 25px 10px 8px #000000;*/
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
 
 }
 
@@ -730,20 +732,21 @@ overflow: hidden;
 border-radius: 10px;
 width: 382px;
 height: 330px;
+overflow: hidden;
 background-color: #F8F8FF;
-/* box-shadow: 25px 10px 8px #000000;*/
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 }
 
   
     .foto{
- max-width: 400%;
-  width:  360px;  /* largura*/
-    height: 250px;
-     padding: 0px;
-  /*   border: 3px solid #F8F8FF;  /* cor da borta das fotos*/
-   cursor: pointer;  /*cursor pra foto*/
-      text-align: center;
+max-width: 400%;
+width:  382px;  /* largura*/
+height: 250px;
+padding: 0px;
+/*  border: 3px solid #F8F8FF;  /* cor da borta das fotos*/
+cursor: pointer;  /*cursor pra foto*/
+text-align: center;
  
 
 
