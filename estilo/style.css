@@ -398,8 +398,84 @@ body{
 @media screen and (max-width: 1024px){
 
 
+.card-curso1{
+border-radius: 10px;
+width: 380px;
+height: 310px;
+background-color: #0938F8;
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+}
+
+.card-curso2{
+border-radius: 10px;
+width: 380px;
+height: 310px;
+background-color: #1428DB;
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 
+}
+.card-curso3{
+border-radius: 10px;
+width: 380px;
+height: 310px;
+background-color: #E80707;
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+
+}
+
+.card-curso4{
+border-radius: 10px;
+width: 380px;
+height: 310px;
+background-color: #09F7F1;
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+
+}
+
+
+
+.card-curso5{
+border-radius: 10px;
+width: 380px;
+height: 330px;
+overflow: hidden;
+background-color: #D4460F ; /* Laranjado*/
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+}
+
+
+.card-curso6{
+border-radius: 10px;
+width: 380px;
+height: 330px;
+overflow: hidden;
+background-color: #FFEF09; /* */
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+}
+
+.card-curso7{
+border-radius: 10px;
+width: 380px;
+height: 330px;
+overflow: hidden;
+background-color: #0CF527; /* */
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+}
+
+.foto{
+
+max-width: 70vw;
+width:  25vw; 
+height: 60vh;
+
+}
 
 
 /*************************************************************************/
