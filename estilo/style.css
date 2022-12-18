@@ -664,21 +664,21 @@ section.Titulo{  /* <section class="especialidades"> */
 
 /***************************************************************************/
 
- section.container3{  /* <section class="especialidades"> */
-    padding: 0px 3.4px;  /* alturas das bolsas e afastar pro lado*/  
-    
-}
-
-
- section.container2{  /* <section class="especialidades"> */
-    padding: 0px 3.4px;  /* alturas das bolsas e afastar pro lado*/  
-    
-}
-
 
  section.container1{  /* <section class="especialidades"> */
     padding: 0px 3.4px;  /* alturas das bolsas e afastar pro lado*/  
    
+    
+}
+
+
+section.container2{  /* <section class="especialidades"> */
+    padding: 0px 3.4px;  /* alturas das bolsas e afastar pro lado*/  
+    
+}
+
+section.container3{  /* <section class="especialidades"> */
+    padding: 0px 3.4px;  /* alturas das bolsas e afastar pro lado*/  
     
 }
 
@@ -738,10 +738,10 @@ section.container8{  /* <section class="especialidades"> */
 
 
 
-.card{
+.card-curso{
 border-radius: 10px;
 width: 365px;
-height: 270px;
+height: 310px;
 background-color: #0938F8;
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
@@ -770,12 +770,22 @@ box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 }
 
 
-.card-curso7{
+.card-curso6{
 border-radius: 10px;
 width: 365px;
 height: 330px;
 overflow: hidden;
 background-color: #FFEF09; /* */
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+}
+
+.card-curso7{
+border-radius: 10px;
+width: 365px;
+height: 330px;
+overflow: hidden;
+background-color: #0CF527; /* */
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 }
