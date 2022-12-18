@@ -742,6 +742,8 @@ background-color: #F8F8FF;
      padding: 0px;
   /*   border: 3px solid #F8F8FF;  /* cor da borta das fotos*/
    cursor: pointer;  /*cursor pra foto*/
+      text-align: center;
+ 
 
 
 }
@@ -758,6 +760,8 @@ footer{
     background: #778899;
     padding: 10px 0;
     margin-top: 25px;
+    
+ 
 
 }
 
