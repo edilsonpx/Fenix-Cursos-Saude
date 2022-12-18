@@ -738,11 +738,29 @@ section.container8{  /* <section class="especialidades"> */
 
 
 
-.card-curso{
+.card-curso1{
 border-radius: 10px;
 width: 365px;
 height: 310px;
 background-color: #0938F8;
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+}
+
+.card-curso2{
+border-radius: 10px;
+width: 365px;
+height: 310px;
+background-color: #1428DB;
+box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
+
+
+}
+.card-curso3{
+border-radius: 10px;
+width: 365px;
+height: 310px;
+background-color: #E80707;
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 
@@ -752,12 +770,13 @@ box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 border-radius: 10px;
 width: 365px;
 height: 310px;
-background-color:#00BFFF ;
-overflow: hidden;
+background-color: #09F7F1;
 box-shadow: 0px 0px 10px rgb (0, 0, 0, 0.7);
 
 
 }
+
+
 
 .card-curso5{
 border-radius: 10px;
